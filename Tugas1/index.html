@@ -1,76 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Login</title>
+    <title>index</title>
 </head>
-
 <body>
-    <div>
-        <h1>Buat Account Baru</h1>
-        <h3>Sign Up Form</h3>
-        <label for="firstname">First Name :</label>
-        <br>
-        <br>
-        <input type="text">
-        <br>
-        <br>
-        <label for="lastname">Last Name :</label>
-        <br>
-        <br>
-        <input type="text">
-    </div>
-    <br>
-    <div>
-        <label for="gender">Gender :</label>
-        <br>
-        <br>
-        <input type="radio">Male
-        <br>
-        <input type="radio">Female
-        <br>
-        <input type="radio">Other
-    </div>
-    <br>
-    <div>
-        <label for="nationality">Nationality :</label>
-        <br>
-        <br>
-        <select name="nationality" id="nationality">
-            <option value="indonesia">Indonesia</option>
-            <option value="malaysia">Malaysia</option>
-            <option value="singapura">Siangapure</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <label for="language spoken">Language Spoken</label>
-        <br>
-        <br>
-        <input type="checkbox" name="language spoken" id="language spoken">I have a bike
-        <br>
-        <input type="checkbox" name="language spoken" id="language spoken">I have a car
-        <br>
-        <input type="checkbox" name="language spoken" id="language spoken">I have a boat
-        <br>
-    </div>
-    <br>
-    <div>
-        <label for="bio">Bio</label>
-        <br>
-        <br>
-        <textarea name="bio" id="bio"></textarea>
-    </div>
-    <div>
-        <input id="btn" type="submit" value="Sign Up">
-    </div>
-    <script>
-        document.getElementById("btn").addEventListener("click", function () {
-            window.location.href = "welcome.html";
-        });
-    </script>
+    <nav >
+        <ul style="display: flex; padding-left: 10%; list-style: none;">
+            <li style="padding-left: 5%;"><a href="index.html">Home</a></li>
+            <li style="padding-left: 5%;"><a href="#">About Us</a></li>
+            <li style="padding-left: 5%;"><a href="#">Contact Us</a></li>
+            <li style="padding-left: 5%;">Login</li>
+        </ul>
+    </nav>
+    <h1>JarvisCamp</h1>
+    <h2>Social Media Devoloper Santai Berkualitas</h2>
+    <p>Belajar dan Berbagi agar hidup ini semakin santai berkualitas</p>
+    <h2>Benefit Join di JarvisCamp</h2>
+    <ul>
+        <li>Mendapatkan Motivasi dari sesama developer</li>
+        <li>Sharing Knowladge dari para mastah Jarvis</li>
+        <li>Dibuay oleh calon developer terbaik</li>
+    </ul>
+    <h2>Cara Bergabung ke JarvisCamp</h2>
+    <ol>
+        <li>Mengunjungi Website Ini</li>
+        <li>Mendaftar di <a href="form_signup.html">Form Sign Up</a></li>
+        <li>Selesai</li>
+    </ol>
 </body>
-
 </html>
