@@ -50,7 +50,7 @@ $toyota = new mobil("Toyota", "Silver");
 $toyota->merk = "Toyota";
 $toyota->warna = "Silver";
 $toyota->berjalan();
-echo "Mobil $torota->merk berwarna $toyota->warna";
+echo "Mobil $toyota->merk berwarna $toyota->warna";
 
 
 echo "\n";

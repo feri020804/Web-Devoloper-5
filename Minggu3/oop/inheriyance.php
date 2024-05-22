@@ -24,7 +24,7 @@ class jeruk extends buah
     public function __construct($nama, $warna, $rasa)
     {
         parent::__construct("jeruk", $warna, $rasa);
-        $this->jenis = $jenis;
+        $this->jenis = $nama;
     }
     public function printJenis()
 {
